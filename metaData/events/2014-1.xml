@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<even:eventCalendar xmlns:even="com/tylert/xmlBeans/eventCalendar.xsd">
+    <even:events>
+        <even:day id="1440436881" bgcolor="#b848d4" fgcolor="#080808">
+            <even:what>Bible Study</even:what>
+            <even:startDate>2014-2-5</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2014-2-5</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>0</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+    </even:events>
+</even:eventCalendar>

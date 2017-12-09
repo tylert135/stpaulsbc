@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web:webStatistics xmlns:web="com/tylert/xmlBeans/webStatistics.xsd">
+	<visitCounter>1</visitCounter>
+	<statData>
+	    <type name="navigate">
+	        <date>2011-01-8</date>
+	        <time>10:16</time>
+			<oldSection>test</oldSection>
+			<newSection>test</newSection>
+	        <text>C:\Users\tylert\Tools\apache-tomcat\6.0.26\webapps\stpaulsweb\/sections/boxBottomRight.html</text>
+	        <ipAddress>0:0:0:0:0:0:0:1</ipAddress>
+	        <sessionId>A53484799AA27F197580E2518BED243C</sessionId>
+	        <username>anonymousUser</username>
+	        <role>anonymousUser</role>
+	        <webpage>http://localhost:8080/stpaulsweb/getHtml.htm</webpage>
+	    </type>
+	    <type name="navigate">
+	        <date>2011-01-8</date>
+	        <time>10:38</time>
+			<oldSection>test</oldSection>
+			<newSection>test</newSection>
+	        <text>C:\Users\tylert\Tools\apache-tomcat\6.0.26\webapps\stpaulsweb\/sections/announcements.html</text>
+	        <ipAddress>0:0:0:0:0:0:0:1</ipAddress>
+	        <sessionId>86BEF7D556416B78B4504A1B7628D6BA</sessionId>
+	        <username>tim</username>
+	        <role>SUPER</role>
+	        <webpage>http://localhost:8080/stpaulsweb/getHtml.htm</webpage>
+	    </type>
+	</statData>
+</web:webStatistics>

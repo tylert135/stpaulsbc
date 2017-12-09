@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webStatistics xmlns="C:/Users/tylert/dev/projects/eclipse/stpaulsweb/resources/webStatistics/webStatistics.xsd">
+    <visitCounter>1</visitCounter>
+    <type name="navigate">
+        <date>2011-01-9</date>
+        <time>7:17</time>
+        <oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <text>C:\Users\tylert\Tools\apache-tomcat\6.0.26\webapps\stpaulsweb\/sections/boxBottomRight.html</text>
+        <ipAddress>0:0:0:0:0:0:0:1</ipAddress>
+        <sessionId>2047DE1C2BEC9C378411BE796E144D5F</sessionId>
+        <username>anonymousUser</username>
+        <role>anonymousUser</role>
+        <webpage>http://localhost:8080/stpaulsweb/getHtml.htm</webpage>
+    </type>
+</webStatistics>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventCalendar xmlns="com/tylert/xmlBeans/eventCalendar.xsd">
+    <events>
+        <day/>
+        <day/>
+        <day id="1484798187" bgcolor="#c736c7" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2010-10-28</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2010-10-28</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="570940248" bgcolor="#c736c7" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2010-11-5</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2010-11-5</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+    </events>
+</eventCalendar>

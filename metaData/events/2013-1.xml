@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<even:eventCalendar xmlns:even="com/tylert/xmlBeans/eventCalendar.xsd">
+    <even:events>
+        <even:day id="1832187502" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Sunday Service - Rev. Johnson</even:what>
+            <even:startDate>2013-0-27</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2013-0-27</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="1717344442" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Midweek Prayer and Bible Study</even:what>
+            <even:startDate>2013-0-30</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2013-0-30</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-1454584621" bgcolor="#48d44f" fgcolor="#ffffff">
+            <even:what>Church Finance Meeting</even:what>
+            <even:startDate>2013-1-3</even:startDate>
+            <even:startHour>12</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2013-1-3</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+    </even:events>
+</even:eventCalendar>

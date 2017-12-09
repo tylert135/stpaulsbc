@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventCalendar xmlns="com/tylert/xmlBeans/eventCalendar.xsd">
+    <events>
+        <day id="138783120" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2012-1-1</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2012-1-1</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="1138983253" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2012-1-8</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2012-1-8</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-360765681" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2012-1-15</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2012-1-15</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-1134590418" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2012-1-22</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2012-1-22</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-331388461" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2012-0-29</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2012-0-29</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="492689082" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2012-1-5</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2012-1-5</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-663965618" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2012-1-12</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2012-1-12</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="297114124" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2012-1-19</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2012-1-19</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-352673565" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Black History Month Celebration</what>
+            <startDate>2012-1-12</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2012-1-12</endDate>
+            <endHour>12</endHour>
+            <endMinute>0</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="347080708" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2012-2-4</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2012-2-4</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day/>
+        <day/>
+        <day/>
+        <day/>
+        <day id="1622312128" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2012-1-26</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2012-1-26</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day/>
+        <day id="801309123" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2012-1-29</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2012-1-29</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+    </events>
+</eventCalendar>

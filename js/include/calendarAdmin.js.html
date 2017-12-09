@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<script type="text/javascript">
+	$(document).ready(function(){	
+
+		var clickDate = "";
+		var clickAgendaItem = "";
+		var qtip;
+
+		/**
+		 * Initializes calendar with current year & month
+		 * specifies the callbacks for day click & agenda item click events
+		 * then returns instance of plugin object
+		 */
+		var jfcalplugin = $("#mycal").jFrontierCal({
+			date: new Date(),
+			dayClickCallback: myDayClickHandler,
+			agendaClickCallback: myAgendaClickHandler,
+			agendaDropCallback: null,
+			agendaMouseoverCallback: null,
+			applyAgendaTooltipCallback: null,
+			agendaDragStartCallback : null,
+			agendaDragStopCallback : null,
+			dragAndDropEnabled: false
+		}).data("plugin");
+
+		setupCalendarEvents();
+
+		function setupCalendarEvents()
+		{
+			$.ajaxSetup({cache: false});
+			var d = jfcalplugin.getCurrentDate("#mycal");
+			var calDate =  d.getFullYear() + "-" +d.getMonth();
+			$.getJSON( "getEvents.htm",{calDate : calDate},calendarSetupValues);
+			$.ajaxSetup({cache: true});
+		}
+		function calendarSetupValues(response)
+		{
+			var d = jfcalplugin.getCurrentDate("#mycal");
+			$("#monthLabel").text(getMONTH(d.getMonth()) + " " + d.getFullYear());
+			var calEvents = JSON.parse(response.calendarEvents);
+			for (var i=0; calEvents.length>i; i++) { 
+
+				var startDate = calEvents[i].startDate;
+				var startDtArray = startDate.split("-");
+				var startYear = startDtArray[0];
+				var startMonth = startDtArray[1];
+				var startDay = startDtArray[2];
+				
+				var endDate = calEvents[i].endDate;
+				var endDtArray = endDate.split("-");
+				var endYear = endDtArray[0];
+				var endMonth = endDtArray[1];
+				var endDay = endDtArray[2];
+
+				jfcalplugin.addAgendaItem(
+						"#mycal",
+						calEvents[i].title,
+						new Date(parseInt(startYear),parseInt(startMonth),parseInt(startDay),
+								parseInt(calEvents[i].startHrs),parseInt(calEvents[i].startMins),0,0),
+						new Date(parseInt(endYear),  parseInt(endMonth),  parseInt(endDay),  
+								parseInt(calEvents[i].endHrs),parseInt(calEvents[i].endMins),0,0),
+						false,
+						null,
+						{
+							backgroundColor: calEvents[i].displayProp.backgroundColor,
+							foregroundColor: calEvents[i].displayProp.foregroundColor
+						}
+					);
+			} 
+		}
+		
+		/**
+		 * Make the day cells roughly 3/4th as tall as they are wide. this makes our calendar wider than it is tall. 
+		 */
+		jfcalplugin.setAspectRatio("#mycal",0.75);
+
+		/**
+		 * Called when user clicks day cell (empty area)
+		 * use reference to plugin object to add agenda item
+		 */
+		function myDayClickHandler(eventObj){
+			// Get the Date of the day that was clicked from the event object
+			var date = eventObj.data.calDayDate;
+			// store date in our global js variable for access later
+			clickDate = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
+
+			/**
+			 * Initialize event modal form
+			 */
+			$("#event-form").dialog({
+				autoOpen: false,
+				height: 400,
+				width: 400,
+				modal: true,
+				buttons: {
+					'Save': function() {
+	
+						var what = jQuery.trim($("#what").val());
+						var startDateObj = convert2Date($("#startDate").val(),
+								jQuery.trim($("#startHour").val()),
+								jQuery.trim($("#startMin").val()),
+								jQuery.trim($("#startMeridiem").val())
+								);
+						var endDateObj = convert2Date($("#endDate").val(),
+								jQuery.trim($("#endHour").val()),
+								jQuery.trim($("#endMin").val()),
+								jQuery.trim($("#endMeridiem").val())
+								);
+						if (!isValidateEvent(startDateObj, endDateObj, what, "create"))
+						{
+							return;
+						}
+						// add new event to the calendar
+						jfcalplugin.addAgendaItem(
+							"#mycal",
+							what,
+							startDateObj,
+							endDateObj,
+							false,
+							null,
+							{
+								backgroundColor: $("#colorBackground").val(),
+								foregroundColor: $("#colorForeground").val()
+							}
+						);
+						$.ajaxSetup({cache: false});
+						$.getJSON( "saveEvents.htm",
+								{
+								"what"          : what,
+								"startDateObj"  : startDateObj.getFullYear()+"-"+startDateObj.getMonth()+"-"+startDateObj.getDate(),
+								"startAmPm"     : jQuery.trim($("#startMeridiem").val()),
+								"startHour"     : jQuery.trim($("#startHour").val()),
+								"startMinute"   : jQuery.trim($("#startMin").val()),
+								"endDateObj"    : endDateObj.getFullYear()+"-"+endDateObj.getMonth()+"-"+endDateObj.getDate(),
+								"endHour"       : jQuery.trim($("#endHour").val()),
+								"endMinute"     : jQuery.trim($("#endMin").val()),
+								"endAmPm"       : jQuery.trim($("#endMeridiem").val()),
+								"bgColor"       : $("#colorBackground").val(),
+								"fgColor"       : $("#colorForeground").val(),
+								"action"        : "New",
+								"origEvent"     : null,
+								"origStartDate" : null,
+								"origEndDate"   : null
+								},
+								eventsSaved);
+						$.ajaxSetup({cache: true});
+	
+						$(this).dialog('close');
+					},
+					Cancel: function() {
+						$(this).dialog('close');
+					}
+				},
+				open: function(event, ui){
+					// initialize start date picker
+					$("#startDate").datepicker({
+						showOtherMonths: true,
+						selectOtherMonths: true,
+						changeMonth: true,
+						changeYear: true,
+						showButtonPanel: true,
+						dateFormat: 'yy-mm-dd'
+					});
+					// initialize end date picker
+					$("#endDate").datepicker({
+						showOtherMonths: true,
+						selectOtherMonths: true,
+						changeMonth: true,
+						changeYear: true,
+						showButtonPanel: true,
+						dateFormat: 'yy-mm-dd'
+					});
+					// initialize with the date that was clicked
+					$("#startDate").val(clickDate);
+					$("#endDate").val(clickDate);
+					// initialize color pickers
+					$("#colorSelectorBackground").ColorPicker({
+						color: "#b848d4",
+						onShow: function (colpkr) {
+							$(colpkr).css("z-index","10000");
+							$(colpkr).fadeIn(500);
+							return false;
+						},
+						onHide: function (colpkr) {
+							$(colpkr).fadeOut(500);
+							return false;
+						},
+						onChange: function (hsb, hex, rgb) {
+							$("#colorSelectorBackground div").css("backgroundColor", "#" + hex);
+							$("#colorBackground").val("#" + hex);
+						}
+					});
+					//$("#colorBackground").val("#1040b0");		
+					$("#colorSelectorForeground").ColorPicker({
+						color: "#ffffff",
+						onShow: function (colpkr) {
+							$(colpkr).css("z-index","10000");
+							$(colpkr).fadeIn(500);
+							return false;
+						},
+						onHide: function (colpkr) {
+							$(colpkr).fadeOut(500);
+							return false;
+						},
+						onChange: function (hsb, hex, rgb) {
+							$("#colorSelectorForeground div").css("backgroundColor", "#" + hex);
+							$("#colorForeground").val("#" + hex);
+						}
+					});
+					//$("#colorForeground").val("#ffffff");				
+					// put focus on first form input element
+					$("#what").focus();
+				},
+				close: function() {
+					// reset form elements when we close so they are fresh when the dialog is opened again.
+					$("#startDate").datepicker("destroy");
+					$("#endDate").datepicker("destroy");
+					$("#startDate").val("");
+					$("#endDate").val("");
+					$("#startHour option:eq(0)").attr("selected", "selected");
+					$("#startMin option:eq(0)").attr("selected", "selected");
+					$("#startMeridiem option:eq(0)").attr("selected", "selected");
+					$("#endHour option:eq(0)").attr("selected", "selected");
+					$("#endMin option:eq(0)").attr("selected", "selected");
+					$("#endMeridiem option:eq(0)").attr("selected", "selected");			
+					$("#what").val("");
+					//$("#colorBackground").val("#1040b0");
+					//$("#colorForeground").val("#ffffff");
+				}
+			});
+			
+			
+			// open our add event dialog
+			$('#event-form').dialog('open');
+			$('#event-form').dialog('option', 'title', 'Add New Event');
+		};
+
+		/**
+		 * Called when user clicks an existing agenda item
+		 * use reference to plugin object to edit agenda item
+		 */
+		function myAgendaClickHandler(eventObj){
+
+			// Get ID of the agenda item from the event object
+			var agendaId = eventObj.data.agendaId;		
+			// pull agenda item from calendar
+			var agendaItem = jfcalplugin.getAgendaItemById("#mycal",agendaId);
+			clickAgendaItem = agendaItem;
+
+
+			/**
+			 * Initialize event modal form
+			 */
+			$("#event-form").dialog({
+				autoOpen: false,
+				height: 400,
+				width: 400,
+				modal: true,
+				buttons: {
+					'Save': function() {
+
+						var what = jQuery.trim($("#what").val());
+						var startDateObj = convert2Date($("#startDate").val(),
+								jQuery.trim($("#startHour").val()),
+								jQuery.trim($("#startMin").val()),
+								jQuery.trim($("#startMeridiem").val())
+								);
+						var endDateObj = convert2Date($("#endDate").val(),
+								jQuery.trim($("#endHour").val()),
+								jQuery.trim($("#endMin").val()),
+								jQuery.trim($("#endMeridiem").val())
+								);
+						if (!isValidateEvent(startDateObj, endDateObj, what, "alter"))
+						{
+							return;
+						}
+
+						jfcalplugin.deleteAgendaItemById("#mycal", agendaId);
+						// add new event to the calendar
+						jfcalplugin.addAgendaItem(
+							"#mycal",
+							what,
+							startDateObj,
+							endDateObj,
+							false,
+							null,
+							{
+								backgroundColor: $("#colorBackground").val(),
+								foregroundColor: $("#colorForeground").val()
+							}
+						);
+						$.ajaxSetup({cache: false});
+						$.getJSON( "saveEvents.htm",
+								{
+								"what"          : what,
+								"startDateObj"  : startDateObj.getFullYear()+"-"+startDateObj.getMonth()+"-"+startDateObj.getDate(),
+								"startAmPm"     : jQuery.trim($("#startMeridiem").val()),
+								"startHour"     : jQuery.trim($("#startHour").val()),
+								"startMinute"   : jQuery.trim($("#startMin").val()),
+								"endDateObj"    : endDateObj.getFullYear()+"-"+endDateObj.getMonth()+"-"+endDateObj.getDate(),
+								"endHour"       : jQuery.trim($("#endHour").val()),
+								"endMinute"     : jQuery.trim($("#endMin").val()),
+								"endAmPm"       : jQuery.trim($("#endMeridiem").val()),
+								"bgColor"       : $("#colorBackground").val(),
+								"fgColor"       : $("#colorForeground").val(),
+								"action"        : "Save",
+								"origEvent"     : JSON.stringify(agendaItem),
+								"origStartDate" : getDateTime(agendaItem.startDate),
+								"origEndDate"   : getDateTime(agendaItem.endDate)
+								},
+								eventsSaved);
+						$.ajaxSetup({cache: true});
+	
+						$(this).dialog('close');
+					},
+					Delete: function() {
+						
+						var what = jQuery.trim($("#what").val());
+						var startDateObj = convert2Date($("#startDate").val(),
+								jQuery.trim($("#startHour").val()),
+								jQuery.trim($("#startMin").val()),
+								jQuery.trim($("#startMeridiem").val())
+								);
+						var endDateObj = convert2Date($("#endDate").val(),
+								jQuery.trim($("#endHour").val()),
+								jQuery.trim($("#endMin").val()),
+								jQuery.trim($("#endMeridiem").val())
+								);
+
+						if (!isValidateEvent(startDateObj, endDateObj, what, "delete"))
+						{
+							return;
+						}
+
+						jfcalplugin.deleteAgendaItemById("#mycal", agendaId);
+						$.ajaxSetup({cache: false});
+						$.getJSON( "saveEvents.htm",
+								{
+								"what"          : what,
+								"startDateObj"  : startDateObj.getFullYear()+"-"+startDateObj.getMonth()+"-"+startDateObj.getDate(),
+								"startAmPm"     : jQuery.trim($("#startMeridiem").val()),
+								"startHour"     : jQuery.trim($("#startHour").val()),
+								"startMinute"   : jQuery.trim($("#startMin").val()),
+								"endDateObj"    : endDateObj.getFullYear()+"-"+endDateObj.getMonth()+"-"+endDateObj.getDate(),
+								"endHour"       : jQuery.trim($("#endHour").val()),
+								"endMinute"     : jQuery.trim($("#endMin").val()),
+								"endAmPm"       : jQuery.trim($("#endMeridiem").val()),
+								"bgColor"       : $("#colorBackground").val(),
+								"fgColor"       : $("#colorForeground").val(),
+								"action"        : "Delete",
+								"origEvent"     : JSON.stringify(agendaItem),
+								"origStartDate" : getDateTime(agendaItem.startDate),
+								"origEndDate"   : getDateTime(agendaItem.endDate)
+								},
+								eventsSaved);
+						$.ajaxSetup({cache: true});
+	
+						$(this).dialog('close');
+					},
+					Cancel: function() {
+						$(this).dialog('close');
+					}
+				},
+				open: function(event, ui){
+					// initialize what
+					$("#what").val(agendaItem.title);
+					
+					// initialize start date picker
+					$("#startDate").datepicker({
+						showOtherMonths: true,
+						selectOtherMonths: true,
+						changeMonth: true,
+						changeYear: true,
+						showButtonPanel: true,
+						dateFormat: 'yy-mm-dd'
+					});
+					// initialize end date picker
+					$("#endDate").datepicker({
+						showOtherMonths: true,
+						selectOtherMonths: true,
+						changeMonth: true,
+						changeYear: true,
+						showButtonPanel: true,
+						dateFormat: 'yy-mm-dd'
+					});
+					// initialize with the date that was clicked
+					var date = agendaItem.startDate;
+					var hrs = date.getHours();
+					var mins = date.getMinutes();
+					// store date in our global js variable for access later
+					clickDate = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
+					$("#startDate").val(clickDate);
+					if (mins != "00")
+					{
+						$("#startMin").val(mins);
+					}
+					if (hrs >= 12)
+					{
+						if (hrs>13)
+							hrs=hrs-12;
+						$("#startMeridiem").val("PM");
+					}
+					else
+					{
+						$("#startMeridiem").val("AM");
+					}
+					if (hrs == 0)
+					{
+						$("#startHour").val(12);
+					}
+					else
+					{
+						$("#startHour").val(hrs);
+					}
+
+					date = agendaItem.endDate;
+					// store date in our global js variable for access later
+					clickDate = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate();
+					$("#endDate").val(clickDate);
+
+					hrs = date.getHours();
+					mins = date.getMinutes();
+					$("#endDate").val(clickDate);
+					if (mins != "00")
+					{
+						$("#endMin").val(mins);
+					}
+					if (hrs >= 12)
+					{
+						if (hrs>13)
+							hrs=hrs-12;
+						$("#endMeridiem").val("PM");
+					}
+					else
+					{
+						$("#endMeridiem").val("AM");
+					}
+					if (hrs == 0)
+					{
+						$("#endHour").val(12);
+					}
+					else
+					{
+						$("#endHour").val(hrs);
+					}
+					
+					// initialize color pickers
+					$("#colorSelectorBackground").ColorPicker({
+						color: agendaItem.displayProp.backgroundColor,
+						onShow: function (colpkr) {
+							$(colpkr).css("z-index","10000");
+							$(colpkr).fadeIn(500);
+							return false;
+						},
+						onHide: function (colpkr) {
+							$(colpkr).fadeOut(500);
+							return false;
+						},
+						onChange: function (hsb, hex, rgb) {
+							$("#colorSelectorBackground div").css("backgroundColor", "#" + hex);
+							$("#colorBackground").val("#" + hex);
+						}
+					});
+					$("#colorBackground").val(agendaItem.displayProp.backgroundColor);
+					$("#colorSelectorBackground div").css("backgroundColor", agendaItem.displayProp.backgroundColor);
+					$("#colorSelectorForeground").ColorPicker({
+						color: agendaItem.displayProp.foregroundColor,
+						onShow: function (colpkr) {
+							$(colpkr).css("z-index","10000");
+							$(colpkr).fadeIn(500);
+							return false;
+						},
+						onHide: function (colpkr) {
+							$(colpkr).fadeOut(500);
+							return false;
+						},
+						onChange: function (hsb, hex, rgb) {
+							$("#colorSelectorForeground div").css("backgroundColor", "#" + hex);
+							$("#colorForeground").val("#" + hex);
+						}
+					});
+					$("#colorForeground").val(agendaItem.displayProp.foregroundColor);
+					$("#colorSelectorForeground div").css("backgroundColor", agendaItem.displayProp.foregroundColor);
+					// put focus on first form input element
+					$("#what").focus();
+				},
+				close: function() {
+					// reset form elements when we close so they are fresh when the dialog is opened again.
+					$("#startDate").datepicker("destroy");
+					$("#endDate").datepicker("destroy");
+					$("#startDate").val("");
+					$("#endDate").val("");
+					$("#startHour option:eq(0)").attr("selected", "selected");
+					$("#startMin option:eq(0)").attr("selected", "selected");
+					$("#startMeridiem option:eq(0)").attr("selected", "selected");
+					$("#endHour option:eq(0)").attr("selected", "selected");
+					$("#endMin option:eq(0)").attr("selected", "selected");
+					$("#endMeridiem option:eq(0)").attr("selected", "selected");			
+					$("#what").val("");
+					//$("#colorBackground").val("#1040b0");
+					//$("#colorForeground").val("#ffffff");
+				}
+			});
+			
+			// open our edit event dialog
+			$('#event-form').dialog('open');
+			$('#event-form').dialog('option', 'title', 'Edit New Event');
+
+		};
+		
+		/**
+		 * Initialize jquery ui datepicker. set date format to yyyy-mm-dd for easy parsing
+		 */
+		$("#dateSelect").datepicker({
+			showOtherMonths: true,
+			selectOtherMonths: true,
+			changeMonth: true,
+			changeYear: true,
+			showButtonPanel: true,
+			dateFormat: 'yy-mm-dd'
+		});
+		
+		/**
+		 * Set datepicker to current date
+		 */
+		$("#dateSelect").datepicker('setDate', new Date());
+		/**
+		 * Use reference to plugin object to a specific year/month
+		 */
+		$("#dateSelect").bind('change', function() {
+			var selectedDate = $("#dateSelect").val();
+			var dtArray = selectedDate.split("-");
+			var year = dtArray[0];
+			// jquery datepicker months start at 1 (1=January)		
+			var month = dtArray[1];
+			// strip any preceeding 0's		
+			month = month.replace(/^[0]+/g,"");
+			var day = dtArray[2];
+			// plugin uses 0-based months so we subtrac 1			
+			jfcalplugin.showMonth("#mycal",year,parseInt(month-1).toString());
+			jfcalplugin.deleteAllAgendaItems("#mycal");
+			setupCalendarEvents();
+		});	
+		/**
+		 * Initialize previous month button
+		 */
+		$("#BtnPreviousMonth").button();
+		$("#BtnPreviousMonth").click(function() {
+			jfcalplugin.showPreviousMonth("#mycal");
+			// update the jqeury datepicker value
+			var calDate = jfcalplugin.getCurrentDate("#mycal"); // returns Date object
+			var cyear = calDate.getFullYear();
+			// Date month 0-based (0=January)
+			var cmonth = calDate.getMonth();
+			var cday = calDate.getDate();
+			// jquery datepicker month starts at 1 (1=January) so we add 1
+			$("#dateSelect").datepicker("setDate",cyear+"-"+(cmonth+1)+"-"+cday);
+			jfcalplugin.deleteAllAgendaItems("#mycal");
+			setupCalendarEvents();
+			return false;
+		});
+		/**
+		 * Initialize next month button
+		 */
+		$("#BtnNextMonth").button();
+		$("#BtnNextMonth").click(function() {
+			jfcalplugin.showNextMonth("#mycal");
+			// update the jqeury datepicker value
+			var calDate = jfcalplugin.getCurrentDate("#mycal"); // returns Date object
+			var cyear = calDate.getFullYear();
+			// Date month 0-based (0=January)
+			var cmonth = calDate.getMonth();
+			var cday = calDate.getDate();
+			// jquery datepicker month starts at 1 (1=January) so we add 1
+			$("#dateSelect").datepicker("setDate",cyear+"-"+(cmonth+1)+"-"+cday);	
+			jfcalplugin.deleteAllAgendaItems("#mycal");
+    		setupCalendarEvents();
+			return false;
+		});
+		
+		
+		function eventsSaved(response)
+		{
+			null;
+		}
+
+		function isValidateEvent(startDateObj, endDateObj, what, crud)
+		{
+			var todaysDate = new Date();
+
+			if(what == ""){
+				alert("Please enter a short event description into the \"what\" field.");
+				return false;
+			}
+			else if (startDateObj.getTime() > endDateObj.getTime())
+			{
+				alert("Sorry, you can't " + crud + " an event that ends before it starts");
+				return false;
+			}
+			else if (endDateObj.getTime() < todaysDate.getTime())
+			{
+				alert("Sorry, you can't " + crud + " an event in the past");
+				return false;
+			}
+			return true;
+			
+		}
+
+		function convert2Date(date, hour, min, meridiem)
+		{
+			var dtArray = date.split("-");
+			var year = dtArray[0];
+			// jquery datepicker months start at 1 (1=January)		
+			var month = dtArray[1];		
+			var day = dtArray[2];
+			// strip any preceeding 0's		
+			month = month.replace(/^[0]+/g,"");
+			day = day.replace(/^[0]+/g,"");
+			hour = parseInt(hour.replace(/^[0]+/g,""));
+			if(min == "0" || min == "00"){
+				min = 0;
+			}else{
+				min = parseInt(min.replace(/^[0]+/g,""));
+			}
+			if(meridiem == "AM" && hour == 12){
+				hour = 0;
+			}else if(meridiem == "PM" && hour < 12){
+				hour = parseInt(hour) + 12;
+			}
+			return  new Date(parseInt(year),parseInt(month)-1,parseInt(day),hour,min,0,0);
+		}
+
+		function getMONTH(index)
+		{
+			 var month_names = new Array ( );
+			 month_names[month_names.length] = "January";
+			 month_names[month_names.length] = "February";
+			 month_names[month_names.length] = "March";
+			 month_names[month_names.length] = "April";
+			 month_names[month_names.length] = "May";
+			 month_names[month_names.length] = "June";
+			 month_names[month_names.length] = "July";
+			 month_names[month_names.length] = "August";
+			 month_names[month_names.length] = "September";
+			 month_names[month_names.length] = "October";
+			 month_names[month_names.length] = "November";
+			 month_names[month_names.length] = "December";
+			return month_names[index];
+		}
+		function getDateTime(dateObj)
+		{
+			return dateObj.getFullYear() + "-" +
+				dateObj.getMonth() + "-" +
+				dateObj.getDate() + "T" +
+				dateObj.getHours() + ":" +
+				dateObj.getMinutes();
+		}
+			
+	});
+	</script>

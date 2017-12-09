@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<even:eventCalendar xmlns:even="com/tylert/xmlBeans/eventCalendar.xsd">
+    <even:events>
+        <even:day id="272791194" bgcolor="#b848d4" fgcolor="#080808">
+            <even:what>Bible Study</even:what>
+            <even:startDate>2014-2-26</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2014-2-26</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>0</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-962253803" bgcolor="#b848d4" fgcolor="#080808">
+            <even:what>Bible Study</even:what>
+            <even:startDate>2014-3-2</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2014-3-2</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>0</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-1565958473" bgcolor="#bb62d1" fgcolor="#0e0f0f">
+            <even:what>Sunday Service</even:what>
+            <even:startDate>2014-2-30</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2014-2-30</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="345001038" bgcolor="#bb62d1" fgcolor="#0e0f0f">
+            <even:what>Sunday Service</even:what>
+            <even:startDate>2014-3-6</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2014-3-6</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-1874504057" bgcolor="#bb62d1" fgcolor="#0e0f0f">
+            <even:what>Sunday Service</even:what>
+            <even:startDate>2014-3-13</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2014-3-13</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="398763995" bgcolor="#bb62d1" fgcolor="#0e0f0f">
+            <even:what>Sunday Service</even:what>
+            <even:startDate>2014-3-20</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2014-3-20</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-2093961025" bgcolor="#bb62d1" fgcolor="#0e0f0f">
+            <even:what>Sunday Service</even:what>
+            <even:startDate>2014-3-27</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2014-3-27</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-1558381015" bgcolor="#b848d4" fgcolor="#080808">
+            <even:what>Bible Study</even:what>
+            <even:startDate>2014-3-9</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2014-3-9</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>0</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="1400777267" bgcolor="#b848d4" fgcolor="#080808">
+            <even:what>Bible Study</even:what>
+            <even:startDate>2014-3-16</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2014-3-16</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-972333240" bgcolor="#b848d4" fgcolor="#080808">
+            <even:what>Bible Study</even:what>
+            <even:startDate>2014-3-23</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2014-3-23</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="1464119387" bgcolor="#b848d4" fgcolor="#080808">
+            <even:what>Bible Study</even:what>
+            <even:startDate>2014-3-30</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2014-3-30</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+    </even:events>
+</even:eventCalendar>

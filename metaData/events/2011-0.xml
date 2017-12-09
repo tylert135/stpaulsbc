@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventCalendar xmlns="com/tylert/xmlBeans/eventCalendar.xsd">
+    <events>
+        <day id="138783120" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2011-0-5</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-5</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="1138983253" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2011-0-12</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-12</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-360765681" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2011-0-19</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-19</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-1134590418" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2011-0-26</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-26</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day/>
+        <day id="-331388461" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2010-11-26</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2010-11-26</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="492689082" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2011-0-2</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2011-0-2</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-663965618" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2011-0-9</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2011-0-9</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="297114124" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2011-0-16</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2011-0-16</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="1280685777" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2011-0-23</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2011-0-23</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="908243763" bgcolor="#ba0079" fgcolor="#ffffff">
+            <what>New Years Day</what>
+            <startDate>2011-0-1</startDate>
+            <startHour>0</startHour>
+            <startMinute>0</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2011-0-1</endDate>
+            <endHour>0</endHour>
+            <endMinute>0</endMinute>
+            <endAmPm>AM</endAmPm>
+        </day>
+        <day/>
+        <day/>
+        <day id="-1788952703" bgcolor="#4d3fcc" fgcolor="#ffffff">
+            <what>Night Watch Service</what>
+            <startDate>2010-11-31</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2010-11-31</endDate>
+            <endHour>11</endHour>
+            <endMinute>55</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-1349912024" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sunday Service</what>
+            <startDate>2011-1-6</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2011-1-6</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="765306691" bgcolor="#333333" fgcolor="#ffffff">
+            <what>**NO** Midweek Prayer and Bible Study</what>
+            <startDate>2010-11-29</startDate>
+            <startHour>7</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2010-11-29</endDate>
+            <endHour>8</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>AM</endAmPm>
+        </day>
+        <day id="-1330912844" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Midweek Prayer and Bible Study</what>
+            <startDate>2011-1-2</startDate>
+            <startHour>19</startHour>
+            <startMinute>15</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-1-2</endDate>
+            <endHour>20</endHour>
+            <endMinute>15</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-1330912" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Sanctuary Chior Rehearsal</what>
+            <startDate>2011-0-4</startDate>
+            <startHour>19</startHour>
+            <startMinute>0</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-4</endDate>
+            <endHour>20</endHour>
+            <endMinute>0</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-13309" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Male Chorus Rehearsal</what>
+            <startDate>2011-0-4</startDate>
+            <startHour>20</startHour>
+            <startMinute>0</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-4</endDate>
+            <endHour>21</endHour>
+            <endMinute>0</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-764864794" bgcolor="#b848d4" fgcolor="#ffffff">
+            <what>Youth Chior Rehearsal</what>
+            <startDate>2011-0-25</startDate>
+            <startHour>19</startHour>
+            <startMinute>0</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-25</endDate>
+            <endHour>20</endHour>
+            <endMinute>0</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day/>
+        <day id="1358771835" bgcolor="#b946d6" fgcolor="#ffffff">
+            <what>Youth Chior Rehearsal</what>
+            <startDate>2011-0-18</startDate>
+            <startHour>19</startHour>
+            <startMinute>0</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-18</endDate>
+            <endHour>20</endHour>
+            <endMinute>0</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="1438193428" bgcolor="#b946d6" fgcolor="#ffffff">
+            <what>Sanctuary Chior</what>
+            <startDate>2011-0-18</startDate>
+            <startHour>20</startHour>
+            <startMinute>0</startMinute>
+            <startAmPm>PM</startAmPm>
+            <endDate>2011-0-18</endDate>
+            <endHour>21</endHour>
+            <endMinute>0</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+        <day id="-796456885" bgcolor="#f00505" fgcolor="#ffffff">
+            <what>**NO** Sunday Service</what>
+            <startDate>2011-0-30</startDate>
+            <startHour>10</startHour>
+            <startMinute>30</startMinute>
+            <startAmPm>AM</startAmPm>
+            <endDate>2011-0-30</endDate>
+            <endHour>12</endHour>
+            <endMinute>30</endMinute>
+            <endAmPm>PM</endAmPm>
+        </day>
+    </events>
+</eventCalendar>

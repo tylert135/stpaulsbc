@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewItems xmlns="com/tylert/xmlBeans/viewData.xsd">
+    <path>sections</path>
+    <view type="custom">
+        <link name="Welcome" id="home">
+            <name xmlns="">Welcome</name>
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>PASTOR</role>
+            <role>SUPER</role>
+        </link>
+        <link name="Pastor" id="pastor">
+            <name xmlns="">Pastor</name>
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>PASTOR</role>
+            <role>SUPER</role>
+        </link>
+        <link name="Organization" id="choirs">
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+            <sublink name="Officiers" id="leadership">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Deacons/Deaconess" id="deacons[ess]">
+                <description>List of church ministries.</description>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Missionary Ministry" id="missionary">
+                <description>List of church ministries.</description>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Praise and Worship Ministry" id="praiseWorship">
+                <description>List of church ministries.</description>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Ushers Ministry" id="ushers">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Sunday School Ministry" id="sundaySchool">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Pastorial Care Ministry" id="pastorCare">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Property Ministry" id="property">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Hospitality Ministry" id="hospitality">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Churches Corner" id="churchCorner">
+                <description>Church Forms</description>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+        </link>
+        <link name="News" id="choirs">
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+            <sublink name="What We Believe" id="weBelieve">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <!-- 
+            <sublink name="Womens Day" id="womensDay">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Recent Events" id="events">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+             -->
+            <sublink name="Points of Power" id="pointsOfPower">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+        </link>
+        <link name="Choirs" id="choirs">
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+            <sublink name="Inspirational Choir" id="inspirationalChoir">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Male Chorus" id="maleChorus">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+            <sublink name="Sanctuary Choir" id="sanctuaryChoir">
+                <description/>
+                <role>anonymousUser</role>
+                <role>ADMIN</role>
+                <role>SUPER</role>
+            </sublink>
+        </link>
+        <link id="history" name="Church History">
+            <name xmlns="">Church History</name>
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+        </link>
+        <link id="changeLog" name="Change Log">
+            <description/>
+            <role>SUPER</role>
+        </link>
+    </view>
+    <view type="default">
+        <link name="Top Left Box" id="boxTopLeft">
+            <name xmlns="">Top Left Box</name>
+            <description/>
+            <role>ADMIN</role>
+            <role>PASTOR</role>
+            <role>SUPER</role>
+        </link>
+        <link name="Top Right Box" id="boxTopRight">
+            <name xmlns="">Top Right Box</name>
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+        </link>
+        <link name="Bottom Left Box" id="boxBottomLeft">
+            <name xmlns="">Bottom Left Box</name>
+            <description/>
+            <role>anonymousUser</role>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+        </link>
+        <link name="Bottom Right Box" id="boxBottomRight">
+            <name xmlns="">Bottom Right Box</name>
+            <description/>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+        </link>
+        <link name="Bottom Center Box" id="boxBottomCenter">
+            <name xmlns="">Bottom Center Box</name>
+            <description/>
+            <role>ADMIN</role>
+            <role>SUPER</role>
+        </link>
+    </view>
+</viewItems>

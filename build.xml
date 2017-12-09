@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="stpaulsbc" basedir="." default="deploywar">
+    <property file="build.properties"/>
+
+    <property name="src.dir" value="src/java/main"/>
+    <property name="src.web.dir" value="webapp"/>
+	
+	<property name="target.dir" value="${basedir}/target" />
+	<property name="target.web.dir" value="${target.dir}/WEB-INF" />
+	
+    <property name="app.name" value="app.name"/>
+	<property name="xmlBeans.dir" value="${basedir}/../xmlBeansParse/lib/com/tylert/xmlBeans" />
+	<property name="library.dir" value="${basedir}/../Libraries" />
+	<property name="spring.dir" value="${library.dir}/spring/core/3.0.3" />
+
+	<target name="clean">
+		<delete dir="${target.dir}" />
+	</target>
+
+	<target name="clean.deploy">
+		<delete dir="${deploy.path}/${app.name}" />
+	</target>
+
+
+    <path id="dependency.path">
+    	<fileset dir="${src.web.dir}/WEB-INF/lib"           includes="*.jar"/>
+
+    	<fileset dir="${xmlBeans.dir}"                      includes="eventCalendarXmlBeans.jar" />
+    	<fileset dir="${xmlBeans.dir}"                      includes="galleriaXmlBeans.jar" />
+        <fileset dir="${xmlBeans.dir}"                      includes="viewXmlBeans.jar" />
+        <fileset dir="${xmlBeans.dir}"                      includes="webStatisticsXmlBeans.jar" />
+    	
+    	<fileset dir="${spring.dir}"                        includes="org.springframework.asm-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="org.springframework.beans-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="org.springframework.context.support-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="org.springframework.context-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="org.springframework.core-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="org.springframework.expression-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="org.springframework.web-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="org.springframework.web.servlet-3.0.3.RELEASE.jar" />
+		<fileset dir="${spring.dir}"                        includes="dependencies/org.antlr/com.springsource.org.antlr/3.0.1/com.springsource.org.antlr-3.0.1.jar" />
+
+    	<fileset dir="${library.dir}/commons-logging/1.1.1" includes="commons-logging-1.1.1.jar" />
+        <fileset dir="${appserver.lib}"                     includes="servlet*.jar"/>
+		<fileset dir="${library.dir}/jboss/common"          includes="jettison.jar" />
+        <pathelement path="${target.dir.classes}"/>
+	</path>
+	
+	<target name="prepare" depends="clean">
+		<mkdir dir="${target.dir}" />
+		<mkdir dir="${target.dir}/META-INF" />
+		<mkdir dir="${target.web.dir}" />
+		<mkdir dir="${target.web.dir}/classes" />
+		<mkdir dir="${target.web.dir}/lib" />
+		<mkdir dir="${target.web.dir}/tld" />
+	</target>
+
+	<target name="usage">
+        <echo message=""/>
+        <echo message="${app.name} build file"/>
+        <echo message="-----------------------------------"/>
+        <echo message=""/>
+        <echo message="Available targets are:"/>
+        <echo message=""/>
+        <echo message="build     --> Build the application"/>
+        <echo message="deploywar --> Deploy application as a WAR file"/>
+        <echo message=""/>
+    </target>
+
+    <target name="build" description="Compile main source tree java files" depends="clean, prepare">
+        <javac destdir="${target.web.dir}/classes" source="1.6" target="1.6" debug="true"
+        	includeantruntime="false" deprecation="false" optimize="false" failonerror="true">
+            <src path="${src.dir}"/>
+            <classpath refid="dependency.path"/>
+        </javac>
+    </target>
+
+    <target name="importMetaData" description="Copy Meta Data from war to dev environment" >
+    	
+    	<echo message="Copy from: ${deploy.path}/${app.name}/metaData"/>
+    	<echo message="Copy to: ${src.web.dir}/metaData"/>
+		<copy todir="${src.web.dir}/metaData" verbose="true" overwrite="true">
+			<fileset dir="${deploy.path}/${app.name}/metaData">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${deploy.path}/${app.name}/assets"/>
+    	<echo message="Copy to: ${src.web.dir}/assets"/>
+		<copy todir="${src.web.dir}/assets" verbose="true" overwrite="true">
+			<fileset dir="${deploy.path}/${app.name}/assets">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${deploy.path}/${app.name}/WEB-INF/config"/>
+    	<echo message="Copy to: ${src.web.dir}/WEB-INF/config"/>
+		<copy todir="${src.web.dir}/WEB-INF/config" verbose="true" overwrite="true">
+			<fileset dir="${deploy.path}/${app.name}/WEB-INF/config">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+    	
+    </target>
+
+    <target name="exportMetaData" description="Copy Meta Data from dev to war environment" >
+    	
+    	<echo message="Copy from: ${src.web.dir}/metaData"/>
+    	<echo message="Copy to: ${deploy.path}/${app.name}/metaData"/>
+		<copy todir="${deploy.path}/${app.name}/metaData" verbose="true" overwrite="true">
+			<fileset dir="${src.web.dir}/metaData">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${src.web.dir}/assets"/>
+    	<echo message="Copy to: ${deploy.path}/${app.name}/assets"/>
+		<copy todir="${deploy.path}/${app.name}/assets" verbose="true" overwrite="true">
+			<fileset dir="${src.web.dir}/assets">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${src.web.dir}/WEB-INF/config"/>
+    	<echo message="Copy to: ${deploy.path}/${app.name}/WEB-INF/config"/>
+		<copy todir="${deploy.path}/${app.name}/WEB-INF/config" verbose="true" overwrite="true">
+			<fileset dir="${src.web.dir}/WEB-INF/config">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+    	
+    </target>
+
+    <target name="exportScreens" description="Copy assets, jsp and html from dev to war environment" >
+    	
+    	<echo message="Copy from: ${src.web.dir}/WEB-INF/jsp"/>
+    	<echo message="Copy to: ${deploy.path}/${app.name}/WEB-INF/jsp"/>
+		<copy todir="${deploy.path}/${app.name}/WEB-INF/jsp" verbose="true" overwrite="true">
+			<fileset dir="${src.web.dir}/WEB-INF/jsp">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+    	
+    	<echo message="Copy from: ${src.web.dir}/js/include"/>
+    	<echo message="Copy to: ${deploy.path}/${app.name}/js/include"/>
+		<copy todir="${deploy.path}/${app.name}/js/include" verbose="true" overwrite="true">
+			<fileset dir="${src.web.dir}/js/include">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${src.web.dir}/assets"/>
+    	<echo message="Copy to: ${deploy.path}/${app.name}/assets"/>
+		<copy todir="${deploy.path}/${app.name}/assets" verbose="true" overwrite="true">
+			<fileset dir="${src.web.dir}/assets">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${src.web.dir}/sections"/>
+    	<echo message="Copy to: ${deploy.path}/${app.name}/sections"/>
+		<copy todir="${deploy.path}/${app.name}/sections" verbose="true" overwrite="true">
+			<fileset dir="${src.web.dir}/sections">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+    	
+    </target>
+
+    <target name="importScreens" description="Copy assets, js, jsp and html from war to dev environment" >
+    	
+    	<echo message="Copy from: ${deploy.path}/${app.name}/WEB-INF/jsp"/>
+    	<echo message="Copy to: ${src.web.dir}/WEB-INF/jsp"/>
+		<copy todir="${src.web.dir}/WEB-INF/jsp" verbose="true" overwrite="true">
+			<fileset dir="${deploy.path}/${app.name}/WEB-INF/jsp">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+    	
+    	<echo message="Copy from: ${deploy.path}/${app.name}/js/include"/>
+    	<echo message="Copy to: ${src.web.dir}/js/include"/>
+		<copy todir="${src.web.dir}/js/include" verbose="true" overwrite="true">
+			<fileset dir="${deploy.path}/${app.name}/js/include">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${deploy.path}/${app.name}/assets"/>
+    	<echo message="Copy to: ${src.web.dir}/assets"/>
+		<copy todir="${src.web.dir}/assets" verbose="true" overwrite="true">
+			<fileset dir="${deploy.path}/${app.name}/assets">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+
+    	<echo message="Copy from: ${deploy.path}/${app.name}/sections"/>
+    	<echo message="Copy to: ${src.web.dir}/sections"/>
+		<copy todir="${src.web.dir}/sections" verbose="true" overwrite="true">
+			<fileset dir="${deploy.path}/${app.name}/sections">
+				<include name="**/*" />
+				<exclude name="**/Thumbs.db" />
+			</fileset>
+		</copy>
+    	
+    </target>
+
+	<!-- ============================================================== -->
+	<!--                       DEPLOY WAR                               -->
+	<!-- ============================================================== -->
+    <target name="deploywar" depends="clean.deploy,clean, build" description="Deploy application as a WAR file">
+
+    	<copy todir="${target.web.dir}/lib" file="${xmlBeans.dir}/eventCalendarXmlBeans.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${xmlBeans.dir}/galleriaXmlBeans.jar" />
+        <copy todir="${target.web.dir}/lib" file="${xmlBeans.dir}/viewXmlBeans.jar" />
+        <copy todir="${target.web.dir}/lib" file="${xmlBeans.dir}/webStatisticsXmlBeans.jar" />
+
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.asm-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.beans-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.context.support-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.context-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.core-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.expression-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.web-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/org.springframework.web.servlet-3.0.3.RELEASE.jar" />
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/dependencies/org.antlr/com.springsource.org.antlr/3.0.1/com.springsource.org.antlr-3.0.1.jar" />
+    	
+    	<copy todir="${target.web.dir}/lib" file="${spring.dir}/dependencies/javax.servlet/com.springsource.javax.servlet.jsp.jstl/1.1.2/com.springsource.javax.servlet.jsp.jstl-1.1.2.jar" />
+        <copy todir="${target.web.dir}/lib" file="${spring.dir}/dependencies/org.apache.taglibs/com.springsource.org.apache.taglibs.standard/1.1.2/com.springsource.org.apache.taglibs.standard-1.1.2.jar" />
+
+        <copy todir="${target.web.dir}/lib" file="${library.dir}/jboss/common/jettison.jar" />
+
+    	<copy todir="${target.web.dir}/lib" file="${library.dir}/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+    	
+    	<copy todir="${target.dir}">
+			<fileset dir="${src.web.dir}">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+
+		<copy todir="${deploy.path}/${app.name}">
+			<fileset dir="${target.dir}">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+    	<echo>***********************************************************************************</echo>
+    	<echo>    Deployed to  ${deploy.path}/${app.name}</echo>
+    	<echo>***********************************************************************************</echo>
+    	
+    </target>
+    
+</project>

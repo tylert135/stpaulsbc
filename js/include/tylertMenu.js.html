@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script type="text/javascript">
+
+var logCtr=0;
+$(document).ready(function(){
+
+	//setup menu items
+	$.ajaxSetup({cache: false});
+	$.getJSON( "landingMenuSetup.htm",{},menuSetup);
+	$.ajaxSetup({cache: true});
+
+	$('#menuDIV').css('overflow','hidden');
+
+	//$("ul.navtop li span").live('click', function() { //When trigger is clicked...
+	$( document ).on( "click", "ul.navtop li span", function() {
+		
+		$('#menuDIV').css('overflow','');
+		if ($(this).parent().find("ul.navsub").length > 0)
+		{
+			$('#menuDIV').css('overflow','');
+			//Following events are applied to the navsub itself (moving navsub up and down)
+			$(this).parent().find("ul.navsub").slideToggle('medium'); //Drop down the navsub on click
+
+			$(this).parent().hover(function() {
+			}, function(){
+				//When the mouse hovers out of the navsub, move it back up
+				$(this).parent().find("ul.navsub").slideUp('slow'); 
+				$('#menuDIV').css('overflow','hidden');
+			});
+
+			//Following events are applied to the trigger (Hover events for the trigger)
+		}
+		else {
+			$('#menuDIV').css('overflow','hidden');
+		}
+		}).hover(function() {
+			if ($(this).parent().find("ul.navsub").length > 0)
+				$(this).addClass("subhover"); //On hover over, add class "subhover"
+		}, function(){	//On Hover Out
+			if ($(this).parent().find("ul.navsub").length > 0)
+				$(this).removeClass("subhover"); //On hover out, remove class "subhover"			
+		});
+	$( "#calendar" ).css("display","none");
+	$("#content").css("display","inline");
+	
+});
+
+// return from section load
+function menuSetup(response)
+{
+
+	$('#menuDIV').css('overflow','hidden');
+	var newMenuList = JSON.parse(response.viewList);
+	for (var i=0; newMenuList.length > i; i++) { 
+	    $('#topMenu').append(newMenuList[i]); 
+	} 
+
+	var gList = JSON.parse(response.galleriaLi);
+	for (var i=0; gList.length > i; i++) { 
+	    $('#topMenu').append(gList[i]); 
+	} 
+
+	//$('#topMenu').append('<li class="navli"><span id="calendarLink">Calendar</span></li>');
+
+	//simulate the welcome (or home) menu item click to display page 
+	$("#home").delay(1000).click();
+
+	var roleArray = JSON.parse(response.roles);
+	if (roleArray == "anonymousUser")
+		$('#topMenu').append('<li class="navli"><span id="loginSelect">Login</span></li>');
+	else
+	{
+		$('#topMenu').append('<li class="navli"><span id="admin">Admin</span></li>');
+		$('#topMenu').append('<li class="navli"><span id="logout">Logout</span></li>');
+	}
+}
+
+
+function getChangeLog(id, menuItem, changeLogCtr) {
+
+	var content = $("#content div.dynamicSection");
+	//show the loading bar
+	showLoading();
+	content.hide();
+	
+	$("#calendar" ).hide("slow");
+	$("#content").css("overflow","hidden");
+	$.ajaxSetup({cache: false});
+	$.getJSON( "getChangeLog.htm",{id : id, logCtr : changeLogCtr},updateChangeLog);
+	$.ajaxSetup({cache: true});
+}
+
+function menuClicked(id, menuItem) {
+
+	var content = $("#content div.dynamicSection");
+
+	$('#menuDIV').css('overflow','hidden');
+	
+	$("#home").css("overflow-x","hidden");
+	
+	if ($(menuItem).parent().attr("class") == "navdd")
+	{
+		var navsub = $(menuItem).parent().parent();
+		navsub.slideUp(400); //When the mouse hovers out of the navsub, move it back up
+	}
+	//show the loading bar
+	showLoading();
+	//content[0].innerHTML="<div style='padding: 10px'>&nbsp;</div>";
+	//content.slideUp();
+	content.css("display","none");
+	
+	$( "#calendar" ).hide("slow");
+	$("#content").css("overflow","auto");
+	$.ajaxSetup({cache: false});
+	$.getJSON( "getHtml.htm",{id : id},updateView);
+	$.ajaxSetup({cache: true});
+}
+
+function updateView(response)
+{
+  if (response) {
+
+	  var content = $("#content div.dynamicSection");
+	  var viewItem = JSON.parse(response.viewItem);
+	  content[0].innerHTML=viewItem.html;
+	  hideLoading();
+	  content.slideDown(800);
+  }
+}
+function updateChangeLog(response)
+{
+  if (response) {
+
+	  var content = $("#content div.dynamicSection");
+
+	  $("#content").css("overflow-x","visible");
+
+	  //content.remove();
+	  var tableRowData = "";
+	  var webLog = JSON.parse(response.webLog);
+	  var i=0;
+	  for (i=1; webLog.tableRow[i] != undefined; i++) {
+		  tableRowData = tableRowData + webLog.tableRow[i];
+	  }
+	  logCtr = i-1;
+	  var addElement = webLog.headerRow + tableRowData + webLog.footerRow;
+	  //var addElement = webLog.headerRow + "<tr><td>Date</td></tr>" + webLog.footerRow;
+	  content[0].innerHTML=addElement;
+	  hideLoading();
+	  content.slideDown(800);
+	  if (webLog.isMore)
+		  $("#moreLogData").removeAttr('disabled');
+	  else
+		  $("#moreLogData").attr('disabled', 'disabled');
+	  //$("#moreLogData").attr('disabled', webLog.isMore?'':'disabled');
+  }
+}
+function getMoreChangeLog(logCtr) {
+
+	$.ajaxSetup({cache: false});
+	$.getJSON( "getMoreChangeLog.htm",{logCtr : logCtr},moreChangeLog);
+	$.ajaxSetup({cache: true});
+}
+
+function moreChangeLog(response)
+{
+  if (response) {
+
+	  var table = $("#changeLogTable");
+	  //content.remove();
+	  var tableRowData = "";
+	  var webLog = JSON.parse(response.webLog);
+	  var oldLogCtr = JSON.parse(response.oldLogCtr);
+	  for (var i=oldLogCtr+1; webLog.tableRow[i] != undefined; i++) {
+		  table.delay(1000).append(webLog.tableRow[i]);
+	  }
+	  if (webLog.isMore)
+		  $("#moreLogData").removeAttr('disabled');
+	  else
+		  $("#moreLogData").attr('disabled', 'disabled');
+	  //$("#moreLogData").attr('disabled', webLog.isMore?'':'disabled');
+	  logCtr=webLog.rowCtr;
+  }
+}
+//show loading bar
+function showLoading(){
+	$("#loading")
+		.css({visibility:"visible"})
+		.css({opacity:"1"})
+		.css({display:"block"})
+	;
+}
+//hide loading bar
+function hideLoading(){
+	$("#loading").fadeTo(1000, 0);
+};
+
+</script>	

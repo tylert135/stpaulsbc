@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<even:eventCalendar xmlns:even="com/tylert/xmlBeans/eventCalendar.xsd">
+    <even:events>
+        <even:day id="-1752664947" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Midweek Prayer and Bible Study</even:what>
+            <even:startDate>2012-11-12</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2012-11-12</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="771311413" bgcolor="#484dd4" fgcolor="#ffffff">
+            <even:what>** HAPPY NEW YEARS **</even:what>
+            <even:startDate>2013-0-1</even:startDate>
+            <even:startHour>0</even:startHour>
+            <even:startMinute>0</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2013-0-1</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>0</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="176075885" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Sunday Service - Rev. Reeves</even:what>
+            <even:startDate>2012-11-9</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2012-11-9</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="999539312" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Sunday Service - Rev. Johnson</even:what>
+            <even:startDate>2012-11-16</even:startDate>
+            <even:startHour>0</even:startHour>
+            <even:startMinute>0</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2012-11-16</even:endDate>
+            <even:endHour>0</even:endHour>
+            <even:endMinute>0</even:endMinute>
+            <even:endAmPm>AM</even:endAmPm>
+        </even:day>
+        <even:day id="1962779365" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Sunday Service - Rev. Johnson</even:what>
+            <even:startDate>2012-11-30</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2012-11-30</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-222495272" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Sunday Service - Christmas Play</even:what>
+            <even:startDate>2012-11-23</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2012-11-23</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-640314132" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Midweek Prayer and Bible Study</even:what>
+            <even:startDate>2012-11-19</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2012-11-19</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="871270356" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>NO BIBLE STUDY</even:what>
+            <even:startDate>2012-11-26</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2012-11-26</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-477407616" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>NO BIBLE STUDY</even:what>
+            <even:startDate>2013-0-2</even:startDate>
+            <even:startHour>19</even:startHour>
+            <even:startMinute>15</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2013-0-2</even:endDate>
+            <even:endHour>20</even:endHour>
+            <even:endMinute>15</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="-959988849" bgcolor="#484dd4" fgcolor="#ffffff">
+            <even:what>Watch Night Service</even:what>
+            <even:startDate>2012-11-31</even:startDate>
+            <even:startHour>22</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>PM</even:startAmPm>
+            <even:endDate>2012-11-31</even:endDate>
+            <even:endHour>23</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="41108170" bgcolor="#b848d4" fgcolor="#ffffff">
+            <even:what>Sunday Service - Scott Deloatch</even:what>
+            <even:startDate>2013-0-6</even:startDate>
+            <even:startHour>10</even:startHour>
+            <even:startMinute>30</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2013-0-6</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>30</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+        <even:day id="1287631592" bgcolor="#73cf6c" fgcolor="#d40c3b">
+            <even:what>Merry Christmas!</even:what>
+            <even:startDate>2012-11-25</even:startDate>
+            <even:startHour>0</even:startHour>
+            <even:startMinute>0</even:startMinute>
+            <even:startAmPm>AM</even:startAmPm>
+            <even:endDate>2012-11-25</even:endDate>
+            <even:endHour>12</even:endHour>
+            <even:endMinute>0</even:endMinute>
+            <even:endAmPm>PM</even:endAmPm>
+        </even:day>
+    </even:events>
+</even:eventCalendar>

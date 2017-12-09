@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 	<script type="text/javascript">
+		var editor = null;
+		var fileName=null; 
+		var menuDefaultSize = 11;
+		var viewItem = null;
+		
+		$(document).ready(function(){
+			document.getElementById('returnURL').value = "showMaintenancePage.htm";
+			$.getJSON( "getAdminMenuItems.htm",{},menuSetup);
+
+			$("ul.topnav li span").click(function() { //When trigger is clicked...
+
+				if ($(this).parent().find("ul.subnav").length > 0)
+				{
+					//Following events are applied to the subnav itself (moving subnav up and down)
+					$(this).parent().find("ul.subnav").slideToggle('medium'); //Drop down the subnav on click
+
+					$(this).parent().hover(function() {
+					}, function(){
+						$(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+					});
+
+					//Following events are applied to the trigger (Hover events for the trigger)
+					}
+				}).hover(function() {
+					if ($(this).parent().find("ul.subnav").length > 0)
+						$(this).addClass("subhover"); //On hover over, add class "subhover"
+				}, function(){	//On Hover Out
+					if ($(this).parent().find("ul.subnav").length > 0)
+						$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+			});
+			$('footerDiv').delay(8000).fadeIn(200);
+
+		});
+
+		$(function() {
+			$("#delButton").click(function() {
+				showModalYN("Are you sure you want to delete this custom link?",
+						function() {
+							document.getElementById('action').value = "Delete";
+							document.forms["saveSection"].submit(); 
+				});
+			});
+		});
+
+		$(function() {
+			$("#saveButton").click(function() {
+				var processAddFunction = function() {
+					document.getElementById('html').value = editor.getHTMLText();
+					document.forms["saveSection"].submit(); 
+				};
+				if (document.getElementById('action').value != "New")
+				{
+					if (document.getElementById('user').status == false 
+						&& document.getElementById('pastor').status == false)
+					{
+						showModalOK('<font color="red">Access Roles Error!</font><BR>User or Pastor user must be checked.');
+					}
+					else
+					{
+						showModalYN("Saving will overwrite the current contents, are you sure you want to save?",
+							processAddFunction);
+					}
+				}
+				else
+				{
+					processAddFunction();
+				}
+
+			});
+		});
+
+		$(function() {
+			$("#addButton").click(function() {
+				// generate a random number
+				var randomnumber=Math.floor(Math.random()*10001);
+				getHTML("menu"+randomnumber, "New"); 
+			});
+		});
+
+		function menuSetup(response) {
+			var roleArray = JSON.parse(response.roles);
+			var isSuperOrAdmin = false;
+			// photoGallery access
+			for (var i=0; i < roleArray.length; i++) { 
+				if (roleArray[i] == "SUPER" || roleArray[i] == "ADMIN")
+				{
+					isSuperOrAdmin=true;
+					break;
+				}
+			} 
+			if (!isSuperOrAdmin)
+				$('#photoGalleryLink').remove();
+			
+			var liList = JSON.parse(response.newDefaultList);
+			if (liList.length > 0)
+			{
+				for (var i=0; liList.length>i; i++) { 
+				    $('#default').append(liList[i]); 
+				} 
+			}
+			else
+				$('#defaultSpan').remove();
+			
+			liList = JSON.parse(response.newCustomList);
+			if (liList.length > 0)
+			{
+				for (var i=0; liList.length>i; i++) { 
+				    $('#custom').append(liList[i]); 
+				} 
+			}
+			else
+				$('#customSpan').remove();
+			
+			viewItem = JSON.parse(response.viewItem);
+			getHTML(viewItem.id, viewItem.name + " Section");
+			$('#delDiv').css({display: "none"});
+		}
+		
+		function createRTE(id, name, subnavType) {
+			// check if delete is displayed
+			if (subnavType == "custom" 
+				&& name != "Welcome Section"
+				&& name != "Sick & Shut-in Section"
+				&& name != "Pastor Section"
+				&& name != "Choirs Section"
+				&& name != "Leadership Section"
+				&& name != "Ministries Section"
+				&& name != "Announcements Section"
+				&& name != "Church History Section")
+			{
+				$('#delDiv').slideUp(300).delay(300).fadeIn(300);
+			}
+			else
+			{
+				$('#delDiv').css({display: "none"});
+			}
+			// move subnav up
+			$('ul#' + subnavType  + '.subnav').slideToggle('medium');
+			getHTML(id, name);
+		}
+
+		function getHTML(id, name) {
+			var h1 ="<h1/>";
+			document.getElementById("rteHeader").innerHTML = h1 + name;
+			$.ajaxSetup({cache: false});
+			$.getJSON( "getHtml.htm",{id : id},refreshRTE);
+			$.ajaxSetup({cache: true});
+		}
+		
+		function refreshRTE(response)
+		{
+			viewItem = JSON.parse(response.viewItem);
+			if (viewItem.name == "New")
+			{
+				document.getElementById('action').value = "New";
+				viewItem.name="Change Link Name";
+			}
+			else
+				document.getElementById('action').value = "Save";
+			updateText(viewItem);
+		}
+		
+		function updateText(viewItem) {
+			
+			fileName="/" + viewItem.path + "/" + viewItem.id + ".html";
+			document.getElementById('id').value = viewItem.id;
+			document.getElementById('description').value = viewItem.description;
+			document.getElementById('name').value = viewItem.name;
+			document.getElementById('path').value = viewItem.path;
+			document.getElementById('type').value = viewItem.type;
+			
+			for (var i=0; i < $("#saveSection input[name=roles]").length; i++)
+			{
+				$("#saveSection input[name=roles]")[i].checked = false;
+				for (var j=0; j < viewItem.roles.length; j++)
+				{
+					if ($("#saveSection input[name=roles]")[i].defaultValue == viewItem.roles[j])
+						$("#saveSection input[name=roles]")[i].checked = true;
+				}
+			}
+						
+			if (editor == null )
+			{
+				$('#rte').slideUp(300).delay(300).fadeIn(300); // make visible
+				$('#newLink').slideUp(300).delay(300).fadeIn(300);
+				
+				cssFile='./assets/css/rte/style.css';
+				cssClass='te';
+				bodyId='editor';
+				editor = new TINY.editor.edit('editor',{
+					id:'input',
+					width:584,
+					height:500,
+					cssclass:cssClass,
+					controlclass:'tecontrol',
+					rowclass:'teheader',
+					dividerclass:'tedivider',
+					controls:['bold','italic','underline','strikethrough','|','subscript','superscript','|',
+							  'orderedlist','unorderedlist','|','outdent','indent','|','leftalign',
+							  'centeralign','rightalign','blockjustify','|','unformat','|','undo','redo','n',
+							  'font','size','style','|','image','hr','link','unlink','|','cut','copy','paste','print'],
+					footer:false,
+					fonts:['Verdana','Arial','Georgia','Trebuchet MS'],
+					xhtml:true,
+					cssfile:cssFile,
+					bodyid:bodyId,
+					footerclass:'tefooter',
+					toggle:{text:'source',activetext:'wysiwyg',cssclass:'toggle'},
+					resize:{cssclass:'resize'},
+					html:viewItem.html
+				});
+					
+			}
+			else 
+			{
+
+				editor.e=editor.i.contentWindow.document; 
+				editor.e.open();
+				var m='<html><head>';
+				m+='<link rel="stylesheet" href="'+cssFile+'" />';
+				m+='</head><body id="editor">' + viewItem.html + '</body></html>';
+				editor.e.write(m);
+				editor.e.close();
+			}
+		}
+
+	</script>
+

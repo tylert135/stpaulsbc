@@ -1,0 +1,2373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web:webStatistics xmlns:web="com/tylert/xmlBeans/webStatistics.xsd">
+    <web:visitCounter>50</web:visitCounter>
+	<web:visitCounterTotal>126</web:visitCounterTotal>
+    <web:statData>
+        <web:type name="visit">
+            <web:date>2011-02-1</web:date>
+            <web:time>6:31</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>207.46.199.214</web:ipAddress>
+            <web:sessionId>F9C639FBBF89A584DA11F6D2AD103604</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:32</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>6971379262A697ED3E8B4EFC1086713C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:33</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>6971379262A697ED3E8B4EFC1086713C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:33</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>6971379262A697ED3E8B4EFC1086713C</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:34</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>6971379262A697ED3E8B4EFC1086713C</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:36</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>02AAFA548933D5FA872EF16BF429756F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:36</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/leadership.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>02AAFA548933D5FA872EF16BF429756F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/inspirationalChoir.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>02AAFA548933D5FA872EF16BF429756F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/sanctuaryChoir.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>02AAFA548933D5FA872EF16BF429756F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>02AAFA548933D5FA872EF16BF429756F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>9:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>02AAFA548933D5FA872EF16BF429756F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>10:13</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>223A23682276B79B7AADC0772B9CB255</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>10:14</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>07B76F506D224F26FBEA31F6ACB442E1</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-1</web:date>
+            <web:time>10:16</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>07B76F506D224F26FBEA31F6ACB442E1</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>10:16</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>07B76F506D224F26FBEA31F6ACB442E1</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>13:18</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>1364C947C866CED829AC20C627CE8C3A</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>13:18</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>1364C947C866CED829AC20C627CE8C3A</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="calendar">
+            <web:date>2011-02-1</web:date>
+            <web:time>13:18</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Month: 2011-1</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>1364C947C866CED829AC20C627CE8C3A</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getEvents.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>13:19</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>1364C947C866CED829AC20C627CE8C3A</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>13:59</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>C2C0D36D3E8A2ACC17EE1E884D059DDE</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>13:59</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>C2C0D36D3E8A2ACC17EE1E884D059DDE</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="calendar">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:00</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>C2C0D36D3E8A2ACC17EE1E884D059DDE</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/calendarAdmin.htm</web:webpage>
+        </web:type>
+        <web:type name="calendar">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:00</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Month: 2011-1</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>C2C0D36D3E8A2ACC17EE1E884D059DDE</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getEvents.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:00</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>C2C0D36D3E8A2ACC17EE1E884D059DDE</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:01</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>C2C0D36D3E8A2ACC17EE1E884D059DDE</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:01</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>C2C0D36D3E8A2ACC17EE1E884D059DDE</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:02</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>707F3645E011159C60A9ACDF15C1A634</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:18</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>BAA40F95E044A06D9927912CF9D87980</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:18</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>707F3645E011159C60A9ACDF15C1A634</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:18</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>707F3645E011159C60A9ACDF15C1A634</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="sectionChange">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:25</web:time>
+            <web:oldSection><![CDATA[<TABLE width="100%">
+<TBODY>
+<TR style="BACKGROUND-COLOR: rgb(200,192,235)">
+<TD>
+<H3 style="PADDING-LEFT: 5px">Thought and Reflection</H3></TD></TR></TBODY></TABLE><br />
+<P><STRONG>Watch Night Service <br />New Years Eve 2010</P></STRONG>
+<P>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because the "BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change is the order of the day. </P>
+<H3 align=center>Come see!</H3><STRONG>
+<P>Honoring Reverend <br />Myrna E. Graham</STRONG></P>
+<P>On December 12, 2010 St. Paul's Baptist Church honored Reverend Myrna E. Graham during Sunday Service. What a most auspicious event!&nbsp;Thanks to the many friends, family and St. Paul's members in attendance, Rev. Myrna Graham was shown much love and appreciation. The event was followed by dinner and fellowship.</P>
+<P>&nbsp;</P>
+<H3><br /></H3>
+<DIV align=right><EM></EM>
+<DIV style="TEXT-ALIGN: left"><EM></EM><br /></DIV></DIV>]]></web:oldSection>
+            <web:newSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Thought and Reflection</h3></td></tr></tbody></table><br />
+<p><strong>Watch Night Service <br />New Years Eve 2010</strong></p><strong></strong>
+<p>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because the "BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change is the order of the day. </p><p>&nbsp;</p>
+<h3><br /></h3>
+<div align="right"><em></em>
+<div style="text-align: left;"><em></em><br /></div></div>]]></web:newSection>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>707F3645E011159C60A9ACDF15C1A634</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/showMaintenancePage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-1</web:date>
+            <web:time>14:25</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>707F3645E011159C60A9ACDF15C1A634</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-1</web:date>
+            <web:time>18:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>207.46.204.197</web:ipAddress>
+            <web:sessionId>A82E926D0247CAD4F2BAE3E404C76A8C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-1</web:date>
+            <web:time>18:51</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.80</web:ipAddress>
+            <web:sessionId>ACA7D90F8BCBE8E68EA51ECEED57ADC3</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:25</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>D3EC4DFFFAA9D2868D223F9376FC54DD</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 100</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/pastor.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/leadership.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="sectionChange">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:29</web:time>
+            <web:oldSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Upcoming Events</h3></td></tr></tbody></table>
+<p><br /><strong>Sunday Service<br /></strong><em>10:30 am</em></p>
+<h2 style="text-align: center;">
+<hr>
+</h2>
+<div><br /></div>
+<center><strong>Key Verse</strong></center>
+<div><br />Therefore do not worry about tomorrow, for tomorrow will worry about itself. 
+Each day has enough trouble of its own. <br /><br /></div>
+<div style="text-align: right;"><em>NIV </em><em>Matthew 6:34</em></div>
+<div style="text-align: left;">&nbsp;</div>]]></web:oldSection>
+            <web:newSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Upcoming Events</h3></td></tr></tbody></table>
+<p><br /><strong>Sunday Service<br /></strong><em>10:30 am</em></p>
+<h2 style="text-align: center;">
+<hr>
+</h2>
+
+<center><strong>Key Verse</strong></center>
+<div><br />Therefore do not worry about tomorrow, for tomorrow will worry about itself. 
+Each day has enough trouble of its own. <br /><br /></div>
+<div style="text-align: right;"><em>NIV </em><em>Matthew 6:34</em></div>
+<div style="text-align: left;">&nbsp;</div>]]></web:newSection>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/showMaintenancePage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:29</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:30</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/maleChorus.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:30</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/inspirationalChoir.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:30</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/sanctuaryChoir.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:30</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:30</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:32</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:43</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/leadership.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:43</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/ministries.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="calendar">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/calendarAdmin.htm</web:webpage>
+        </web:type>
+        <web:type name="calendar">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Month: 2011-1</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getEvents.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/ministries.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="sectionChange">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:44</web:time>
+            <web:oldSection><![CDATA[<DIV id=section_ministries>
+<H2 style="LINE-HEIGHT: 120%">Church Ministries</H2>
+<P>Our ministries include Bible Study and Sunday School. </P>
+<P><STRONG>Bible Study</STRONG>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sunday School</STRONG><br />Every Wednesday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Every Sunday <br />7:15pm - 8:15pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00am - 10:00am<br />St. Paul's Baptist Church&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; St. Paul's Baptist Church</P><STRONG>Tract Committee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </STRONG><br />Sister Carolyn Griffin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /><br /><STRONG><br /><STRONG><br /></STRONG></STRONG><br /><BR style="FONT-WEIGHT: bold"><STRONG></STRONG><br /></DIV>]]></web:oldSection>
+            <web:newSection><![CDATA[<div id="section_ministries">
+<h2 style="line-height: 120%;">Church Ministries</h2>
+<p>Our ministries include Bible Study and Sunday School. </p>
+<p><strong>Bible Study</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sunday School</strong><br />Every Wednesday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Every Sunday <br />7:15pm - 8:15pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00am - 10:00am<br />St. Paul's Baptist Church&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; St. Paul's Baptist Church</p><strong>Tract Committee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><br />Sister Carolyn Griffin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /><br style="font-weight: bold;"><strong></strong><br /></div>]]></web:newSection>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/showMaintenancePage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/ministries.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>11:45</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>2BC6B6BB5AA7800CD2299E04C6D38AD6</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:35</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:35</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:36</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="sectionChange">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:38</web:time>
+            <web:oldSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Thought and Reflection</h3></td></tr></tbody></table><br />
+<p><strong>Watch Night Service <br />New Years Eve 2010</strong></p><strong></strong>
+<p>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because the "BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change is the order of the day. </p><p>&nbsp;</p>
+<h3><br /></h3>
+<div align="right"><em></em>
+<div style="text-align: left;"><em></em><br /></div></div>]]></web:oldSection>
+            <web:newSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Thought and Reflection</h3></td></tr></tbody></table><br />
+<p><strong>Watch Night Service <br />New Years Eve 2010</strong></p><strong></strong>
+<p>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because "THE BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change is the order of the day. </p><p>&nbsp;</p>
+<h3><br /></h3>
+<div align="right"><em></em>
+<div style="text-align: left;"><em></em><br /></div></div>]]></web:newSection>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/showMaintenancePage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:38</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="sectionChange">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:39</web:time>
+            <web:oldSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Thought and Reflection</h3></td></tr></tbody></table><br />
+<p><strong>Watch Night Service <br />New Years Eve 2010</strong></p><strong></strong>
+<p>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because "THE BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change is the order of the day. </p><p>&nbsp;</p>
+<h3><br /></h3>
+<div align="right"><em></em>
+<div style="text-align: left;"><em></em><br /></div></div>]]></web:oldSection>
+            <web:newSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Thought and Reflection</h3></td></tr></tbody></table><br />
+<p><strong>Watch Night Service <br />New Years Eve 2010</strong></p><strong></strong>
+<p>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because "THE BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change <b></b> the order of the day. </p><p>&nbsp;</p>
+<h3><br /></h3>
+<div align="right"><em></em>
+<div style="text-align: left;"><em></em><br /></div></div>]]></web:newSection>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/showMaintenancePage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:39</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="sectionChange">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:40</web:time>
+            <web:oldSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Thought and Reflection</h3></td></tr></tbody></table><br />
+<p><strong>Watch Night Service <br />New Years Eve 2010</strong></p><strong></strong>
+<p>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because "THE BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change <b></b> the order of the day. </p><p>&nbsp;</p>
+<h3><br /></h3>
+<div align="right"><em></em>
+<div style="text-align: left;"><em></em><br /></div></div>]]></web:oldSection>
+            <web:newSection><![CDATA[<table width="100%">
+<tbody>
+<tr style="background-color: rgb(200, 192, 235);">
+<td>
+<h3 style="padding-left: 5px;">Thought and Reflection</h3></td></tr></tbody></table><br />
+<p><strong>Watch Night Service <br />New Years Eve 2010</strong></p><strong></strong>
+<p>It was a blessed event. Over 50 strong in attendance. We brought in the New Year with communion, song, prayer and praise. Being in the house of the Lord is always&nbsp;good and on this night the message of the evening was "STAY FOCUSED" because "THE BEST IS YET TO COME".&nbsp;We gave thanks for all he has done and all He has in&nbsp;store for 2011, you only need to be saved and&nbsp;believe in your heart. At St. Paul's Baptist Church,&nbsp;change is&nbsp; the order of the day. </p><p>&nbsp;</p>
+<h3><br /></h3>
+<div align="right"><em></em>
+<div style="text-align: left;"><em></em><br /></div></div>]]></web:newSection>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/showMaintenancePage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:40</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:47</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:47</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 100</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>13:47</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>4559D8E18413FEFB5A07462D3C761729</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>208.115.138.254</web:ipAddress>
+            <web:sessionId>8D90F6E44AC8A16D579EB94BBA5FA137</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>53345D1A1543A0E16737F75F068D471C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>208.115.138.254</web:ipAddress>
+            <web:sessionId>2EE263E712823AC31D52F55D6295EE28</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>DCB8BFB91F88BE6C9D00175A2A46B6E0</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>337CD38A97C4938195F4A5C3051CE141</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>DCB8BFB91F88BE6C9D00175A2A46B6E0</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>DCB8BFB91F88BE6C9D00175A2A46B6E0</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>DCB8BFB91F88BE6C9D00175A2A46B6E0</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 101</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>DCB8BFB91F88BE6C9D00175A2A46B6E0</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>DCB8BFB91F88BE6C9D00175A2A46B6E0</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>14:42</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>337CD38A97C4938195F4A5C3051CE141</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-2</web:date>
+            <web:time>19:19</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>173.66.138.49</web:ipAddress>
+            <web:sessionId>D6FD32DC513C2530F8378193FF5BD869</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-2</web:date>
+            <web:time>19:19</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>173.66.138.49</web:ipAddress>
+            <web:sessionId>D6FD32DC513C2530F8378193FF5BD869</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-3</web:date>
+            <web:time>2:20</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.72.44</web:ipAddress>
+            <web:sessionId>F0DB5FEA37FC8C59773F6D41D162D54B</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-3</web:date>
+            <web:time>3:19</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.72.117</web:ipAddress>
+            <web:sessionId>F9F47571E795FF062FC9658AD086CDD1</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>8:45</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/pastor.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>24A2E779DA59D6E6847EEF4DEDAED615</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>8:45</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/maleChorus.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>24A2E779DA59D6E6847EEF4DEDAED615</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-3</web:date>
+            <web:time>9:34</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 101</web:text>
+            <web:ipAddress>171.159.64.10</web:ipAddress>
+            <web:sessionId>6A2BC9442A2134097E579D0BBBF604F4</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>12:45</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>9DE7403632E2A64BD48A02B48AC2950C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>12:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/leadership.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>9DE7403632E2A64BD48A02B48AC2950C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>12:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/ministries.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>9DE7403632E2A64BD48A02B48AC2950C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>12:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/pastor.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>9DE7403632E2A64BD48A02B48AC2950C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-3</web:date>
+            <web:time>12:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 103</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>9DE7403632E2A64BD48A02B48AC2950C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>15:57</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>BA1E30D345E059DA630F41115D96D0B3</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-3</web:date>
+            <web:time>16:05</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.71.248</web:ipAddress>
+            <web:sessionId>4C8FD29932EC1B7E199F9D37C6994229</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>16:24</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>BA1E30D345E059DA630F41115D96D0B3</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-3</web:date>
+            <web:time>16:25</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>BA1E30D345E059DA630F41115D96D0B3</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-3</web:date>
+            <web:time>16:43</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.69</web:ipAddress>
+            <web:sessionId>50A4293E1C480E26BC882B9B97F61C34</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-3</web:date>
+            <web:time>20:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>72.30.161.253</web:ipAddress>
+            <web:sessionId>580283CCC8E66348C6425ABE8A11ADDF</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-3</web:date>
+            <web:time>21:21</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>208.77.221.210</web:ipAddress>
+            <web:sessionId>AFBFB9FDE4026E8AE427DC8D945E190F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>5:32</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.71.201</web:ipAddress>
+            <web:sessionId>343804682F9F45EA9ADD4043F35D2B69</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:45</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:47</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:48</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/pastor.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/announcements.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:50</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:57</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>9:58</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>A1241EFBADCAD1A8EDEDC0860AEDDD56</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>12:30</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>6FC3EEF203630BCB78AC2B3FC017D0B6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>12:30</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.36</web:ipAddress>
+            <web:sessionId>6FC3EEF203630BCB78AC2B3FC017D0B6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-4</web:date>
+            <web:time>12:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 100</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>6FC3EEF203630BCB78AC2B3FC017D0B6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-4</web:date>
+            <web:time>12:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 101</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>6FC3EEF203630BCB78AC2B3FC017D0B6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-4</web:date>
+            <web:time>12:38</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 102</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>6FC3EEF203630BCB78AC2B3FC017D0B6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>12:39</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.34</web:ipAddress>
+            <web:sessionId>6FC3EEF203630BCB78AC2B3FC017D0B6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>12:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>67.195.115.121</web:ipAddress>
+            <web:sessionId>7A337A453AB99CF66A55C6B5E5537853</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>13:45</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/sanctuaryChoir.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>0CC06FBEB21112485AFEA33305F97A3C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>13:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/announcements.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>0CC06FBEB21112485AFEA33305F97A3C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>13:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/leadership.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>0CC06FBEB21112485AFEA33305F97A3C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="calendar">
+            <web:date>2011-02-4</web:date>
+            <web:time>13:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Month: 2011-1</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>0CC06FBEB21112485AFEA33305F97A3C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getEvents.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>13:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>0CC06FBEB21112485AFEA33305F97A3C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>13:48</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>0CC06FBEB21112485AFEA33305F97A3C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>13:48</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>162.111.195.14</web:ipAddress>
+            <web:sessionId>0CC06FBEB21112485AFEA33305F97A3C</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>14:58</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>68.238.202.238</web:ipAddress>
+            <web:sessionId>A6F6BCB4E41DFE0F8542E2759A7735A7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>14:59</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>68.238.202.238</web:ipAddress>
+            <web:sessionId>A6F6BCB4E41DFE0F8542E2759A7735A7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>15:00</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>68.238.202.238</web:ipAddress>
+            <web:sessionId>A6F6BCB4E41DFE0F8542E2759A7735A7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>15:00</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>68.238.202.238</web:ipAddress>
+            <web:sessionId>A6F6BCB4E41DFE0F8542E2759A7735A7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>15:01</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>68.238.202.238</web:ipAddress>
+            <web:sessionId>A6F6BCB4E41DFE0F8542E2759A7735A7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>19:26</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>127.0.0.1</web:ipAddress>
+            <web:sessionId>17EC49E2F867A5AE1F573018A6DBC994</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://localhost:8080/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>19:26</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>127.0.0.1</web:ipAddress>
+            <web:sessionId>17EC49E2F867A5AE1F573018A6DBC994</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://localhost:8080/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>19:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>127.0.0.1</web:ipAddress>
+            <web:sessionId>17EC49E2F867A5AE1F573018A6DBC994</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://localhost:8080/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>19:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/leadership.html</web:text>
+            <web:ipAddress>127.0.0.1</web:ipAddress>
+            <web:sessionId>17EC49E2F867A5AE1F573018A6DBC994</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://localhost:8080/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>19:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/history.html</web:text>
+            <web:ipAddress>127.0.0.1</web:ipAddress>
+            <web:sessionId>17EC49E2F867A5AE1F573018A6DBC994</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://localhost:8080/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>19:27</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>127.0.0.1</web:ipAddress>
+            <web:sessionId>17EC49E2F867A5AE1F573018A6DBC994</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://localhost:8080/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-4</web:date>
+            <web:time>19:29</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/changeLog.html</web:text>
+            <web:ipAddress>127.0.0.1</web:ipAddress>
+            <web:sessionId>17EC49E2F867A5AE1F573018A6DBC994</web:sessionId>
+            <web:username>tim</web:username>
+            <web:role>SUPER</web:role>
+            <web:webpage>http://localhost:8080/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-4</web:date>
+            <web:time>23:50</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>67.195.115.121</web:ipAddress>
+            <web:sessionId>ADD2A6BDCFBF7F502559822BF2DFB952</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-5</web:date>
+            <web:time>11:09</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.69</web:ipAddress>
+            <web:sessionId>614E99B6A2D55548938A6169EC4310F6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-6</web:date>
+            <web:time>10:26</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>74.82.68.16</web:ipAddress>
+            <web:sessionId>23597246359FCC2EA0EB460139142E1D</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-6</web:date>
+            <web:time>10:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>74.82.68.17</web:ipAddress>
+            <web:sessionId>23597246359FCC2EA0EB460139142E1D</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-6</web:date>
+            <web:time>10:47</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.69</web:ipAddress>
+            <web:sessionId>55003C94A991228753B1CDF57423CEB8</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-6</web:date>
+            <web:time>20:55</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>72.30.161.253</web:ipAddress>
+            <web:sessionId>B9EB9FFD6AC6E81B48B15FCA35E5B08B</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-7</web:date>
+            <web:time>3:34</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>207.46.13.100</web:ipAddress>
+            <web:sessionId>7D44A1151E951FFCD7D0311EDA79EBE6</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-7</web:date>
+            <web:time>13:57</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.90</web:ipAddress>
+            <web:sessionId>DF8A066C4C58142545EB24B9801FF64B</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-8</web:date>
+            <web:time>13:55</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.81</web:ipAddress>
+            <web:sessionId>C563C1664973BE7A2AD2A1E5B3E75BDB</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-8</web:date>
+            <web:time>19:55</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.82</web:ipAddress>
+            <web:sessionId>E6DB9213B6B0E9DD9C3FCF8958047784</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-8</web:date>
+            <web:time>22:52</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>64.246.161.30</web:ipAddress>
+            <web:sessionId>27E3C3AA7025C2249A9DDD1CD646FBD2</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-9</web:date>
+            <web:time>0:48</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.71.248</web:ipAddress>
+            <web:sessionId>ECF52ABF3A61DBA72D734F48DF3429CC</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-9</web:date>
+            <web:time>14:17</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.73</web:ipAddress>
+            <web:sessionId>EB8C5437E09F6892D7C56134D2739EED</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-9</web:date>
+            <web:time>15:41</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>70.86.155.194</web:ipAddress>
+            <web:sessionId>693B2C3822406D2CDD41A5B7D21C82BE</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-10</web:date>
+            <web:time>5:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 101</web:text>
+            <web:ipAddress>65.52.110.89</web:ipAddress>
+            <web:sessionId>6D54789E6185B43ECA19D8A20D26A7BC</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-10</web:date>
+            <web:time>12:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>109.158.65.200</web:ipAddress>
+            <web:sessionId>40EABA082F57504BEED1FC8128C39F3E</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-10</web:date>
+            <web:time>12:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>109.158.65.200</web:ipAddress>
+            <web:sessionId>40EABA082F57504BEED1FC8128C39F3E</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-10</web:date>
+            <web:time>12:38</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>109.158.65.200</web:ipAddress>
+            <web:sessionId>40EABA082F57504BEED1FC8128C39F3E</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-10</web:date>
+            <web:time>14:48</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>86.144.154.177</web:ipAddress>
+            <web:sessionId>998E7041F567331A98DE58D8AA2F62A3</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-10</web:date>
+            <web:time>23:18</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 101</web:text>
+            <web:ipAddress>66.249.72.44</web:ipAddress>
+            <web:sessionId>890FB17CB014914E85CC435A3612FEE9</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-10</web:date>
+            <web:time>23:52</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 101</web:text>
+            <web:ipAddress>66.249.72.44</web:ipAddress>
+            <web:sessionId>DCDA63A40B6BA2A4051E8C1B1628301D</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>3:29</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>64.124.14.126</web:ipAddress>
+            <web:sessionId>A0930CE92F3730D4343BC31DD073FE98</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>10:59</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.72.44</web:ipAddress>
+            <web:sessionId>3E1BA233E721DC69CE3FFC8FE28D6935</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:36</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.16.211</web:ipAddress>
+            <web:sessionId>615C4F784FE54FECB3A5DBDE1CEF9103</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:36</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>66.249.16.211</web:ipAddress>
+            <web:sessionId>615C4F784FE54FECB3A5DBDE1CEF9103</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:42</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:43</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:45</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/maleChorus.html</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:46</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/sanctuaryChoir.html</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:47</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/youthChoir.html</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:48</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/inspirationalChoir.html</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/youthChoir.html</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>11:49</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/leadership.html</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-11</web:date>
+            <web:time>12:03</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 100</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-11</web:date>
+            <web:time>12:04</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 102</web:text>
+            <web:ipAddress>72.78.110.12</web:ipAddress>
+            <web:sessionId>6C147718387C5ADEF8D6B15989E91868</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>13:05</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>67.195.115.121</web:ipAddress>
+            <web:sessionId>E6A5ABF081D3E66A715D68534D3FCFA4</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>13:25</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>123.125.71.69</web:ipAddress>
+            <web:sessionId>B34BA183AA5BD4AF5D93289F58E51700</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>21:28</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>67.195.115.121</web:ipAddress>
+            <web:sessionId>BA0334F7DDD1FEAABD3BB0F0D40F8985</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/landingPage.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:37</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 100</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:39</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:40</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/ministries.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="calendar">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:40</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Month: 2011-1</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getEvents.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:41</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/inspirationalChoir.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:41</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/maleChorus.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:42</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/sanctuaryChoir.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:43</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/announcements.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="navigate">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:43</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>/opt/jboss/tomcat/6.0.29/webapps/ROOT//sections/home.html</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/getHtml.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 101</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="photoGallery">
+            <web:date>2011-02-11</web:date>
+            <web:time>23:44</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text>Gallery ID: 103</web:text>
+            <web:ipAddress>72.81.1.104</web:ipAddress>
+            <web:sessionId>CDC9A30D7A6DC4EF1103242D4A7C18C7</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://www.stpaulsbc.com/photoGallery.htm</web:webpage>
+        </web:type>
+        <web:type name="visit">
+            <web:date>2011-02-12</web:date>
+            <web:time>2:31</web:time>
+            <web:oldSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:newSection xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:text xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <web:ipAddress>95.211.8.147</web:ipAddress>
+            <web:sessionId>B88B323E4C557CDC0A439D906EC7224F</web:sessionId>
+            <web:username>anonymousUser</web:username>
+            <web:role>anonymousUser</web:role>
+            <web:webpage>http://68.32.38.129/landingPage.htm</web:webpage>
+        </web:type>
+    </web:statData>
+</web:webStatistics>

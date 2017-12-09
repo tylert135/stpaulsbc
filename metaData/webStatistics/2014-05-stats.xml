@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web:webStatistics xmlns:web="com/tylert/xmlBeans/webStatistics.xsd">
+    <web:visitCounter>80</web:visitCounter>
+    <web:visitCounterTotal>176</web:visitCounterTotal>
+    <web:statData>
+    </web:statData>
+</web:webStatistics>

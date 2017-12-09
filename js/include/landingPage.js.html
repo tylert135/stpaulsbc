@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			document.getElementById('returnURL').value = "landingPage.htm?visitor=0";
+
+			// loads all the default sections on the landing page
+			loadDefaultSections();
+			$('footerDiv').delay(1000).fadeIn(200);
+
+			//$("#admin").live('click', function() {
+			$( document ).on( "click", "#admin", function() {
+				window.location = "showMaintenancePage.htm";
+			});
+
+			//$("#logout").live('click', function() {
+			$( document ).on( "click", "#logout", function() {
+				window.location = "j_spring_security_logout";
+			});
+			$("#slideshow").fadeIn("slow");
+			//$( "#calendar" ).show();
+			//$("#content div.calendarSection").css("display","none");
+		});		
+
+		function loadDefaultSections()
+		{
+			$.getJSON( "getDefaultSections.htm",{},defaultSectionSetup);
+		}
+		
+		function defaultSectionSetup(response)
+		{
+			var miList = JSON.parse(response.miList);
+			for (var i=0; miList.length>i; i++) 
+			{
+				loadSection(miList[i].id);
+			}
+		}
+
+		/**
+		 *
+		 * loads section division
+		 *
+		 */
+		function loadSection(id) {
+			$.ajaxSetup({cache: false});
+			$.getJSON( "getHtml.htm",{id : id},updateDIV);
+			$.ajaxSetup({cache: true});
+		}
+		// return from section load
+		function updateDIV(response)
+		{
+			if (response)
+			{
+				var viewItem = JSON.parse(response.viewItem);
+				$('#'+viewItem.id).html(viewItem.html).slideUp(200).delay(200).fadeIn(200);
+			}
+		}
+
+		// slide show on top of landing page
+		function slideSwitch() {
+			var $active = $('#slideshow IMG.active');
+
+			if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+			// use this to pull the images in the order they appear in the markup
+			var $next =  $active.next().length ? $active.next()
+				: $('#slideshow IMG:first');
+
+			// uncomment the 3 lines below to pull the images in random order
+
+			// var $sibs  = $active.siblings();
+			// var rndNum = Math.floor(Math.random() * $sibs.length );
+			// var $next  = $( $sibs[ rndNum ] );
+
+
+			$active.addClass('last-active');
+
+			$next.css({opacity: 0.0})
+				.addClass('active')
+				.animate({opacity: 1.0}, 1000, function() {
+					$active.removeClass('active last-active');
+				});
+		}
+
+		$(function() {
+			setInterval( "slideSwitch()", 10000 );
+		});
+	</script>
