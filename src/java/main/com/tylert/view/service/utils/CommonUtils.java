@@ -20,7 +20,6 @@ public class CommonUtils
 	
 	public static boolean isGoodIp(String ip)
 	{
-//		int i=0;if (i==0) return true;
 		if (!ip.equals("0:0:0:0:0:0:0:1"))
 		{
 			StringTokenizer stok = new StringTokenizer(ip,".");
