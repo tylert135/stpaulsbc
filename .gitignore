@@ -1,2 +1,6 @@
 target
 webapp
+*target*
+*.war
+*.ear
+*.class
